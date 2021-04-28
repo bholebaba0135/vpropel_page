@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    width:100%;
+    height:100px;
+    background-color:rgb(56,107,140) ;
+    }
+
+.lheader{
+    float:left;
+    width:10%;
+    height:60px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+
+}
+.rheader{
+    float:right;
+    width:87%;
+}
+.rheader ul li{
+    display:inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+	font-size: 25px;
+    line-height: 100px;
+	margin-left: 25px;
+}
+.rectangle {
+    height: 340px;
+    width: 720px;
+    border-color:grey;
+    border-width: 0.5px;
+    border:solid;
+    margin-left: 425px;
+    color:rgb(243,243,243);
+    position:absolute;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+  .srectangle {
+    height: 40px;
+    width: 515px;
+    border-color:grey;
+    border-width: 0.5px;
+    border:solid;
+    margin-left: 540px;
+    color:rgb(243,243,243);
+    position:absolute;
+    margin-top:10px;
+    border-radius:4px ;
+    -webkit-border-radius:4px ;
+    -moz-border-radius:4px ;
+    -ms-border-radius:4px ;
+    -o-border-radius:4px ;
+}
+.buttonone{
+    background-color: rgb(40,167,69);
+    font-size: 18px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 18px;
+    padding-left: 95px;
+    padding-right: 95px;
+    font-family: Segoe UI;
+    
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+   font-weight: 500;
+   font-family: Segoe UI;
+    height:35px;
+    padding-top: 12px;
+    padding-left: 10px;
+  }
