@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    width:100%;
+    height:100px;
+    background-color:rgb(56,107,140) ;
+    }
+
+.lheader{
+    float:left;
+    width:10%;
+    height:60px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+
+}
+.rheader{
+    float:right;
+    width:87%;
+}
+.rheader ul li{
+    display:inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+	font-size: 25px;
+    line-height: 100px;
+	margin-left: 25px;
+}
+.buttonone{
+    border:2px solid;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 42px;
+    font-family: Segoe UI;
+}

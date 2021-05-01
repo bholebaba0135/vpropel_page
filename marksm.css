@@ -92,13 +92,17 @@
     padding: 15px;
     font-size: 15px;
     border: 2px solid rgb(235,235,235);
-    width:1500px;
+    width:310px;
     text-align: left;
     height:40px;
     font-family: sans-serif;
-    margin-left: 20px;
+    
     border-radius: 4px;
-  }
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
   .dropdowntwo button{
       margin-bottom: 20px;
   }
@@ -110,18 +114,32 @@
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 1475px;
+    
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-left: 30px;
+    
     border-radius: 4px;
   }
   .dropdown-contenttwo a {
     color: black;
-    padding: 12px 16px;
+    padding: 4px 16px;
     text-decoration: none;
     display: block;
   }
   .dropdowntwo:hover .dropdown-contenttwo {display: block;}
   .dropdown-contenttwo a:hover {background-color: rgb(0,123,255);}
   .dropdowntwo:hover .dropbtntwo {background-color: grey;}
+  .buttonone{
+    background-color: rgb(40,167,69);
+    font-size: 18px;
+    padding-top: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    
+  }
