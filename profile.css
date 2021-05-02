@@ -89,12 +89,16 @@
   .color font{
       color:rgb(0,123,255);
       font-weight: 500;
+      font-family: Segoe UI;
+      font-size: 24px;
+      color: rgb(0,123,255);
       
   }
   .table{
       margin-left: 200px;
       margin-right: 200px;
   }
+  
   .cellone{
   width:750px;
   font-family: 'Segoe UI',sans-serif;
@@ -108,20 +112,25 @@
     width:200px;
     
     
+    
     line-height: 7px;
     height: 35px;
     
      }
      .buttonone{
         background-color: rgb(40,167,69);
-        font-size: 18px;
-        padding:12px;
+        font-size: 16px;
+        padding-left:12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         border-radius: 4px;
         -webkit-border-radius: 4px;
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
         margin-left: 18px;
+        font-family: Segoe UI;
       }
    
       
