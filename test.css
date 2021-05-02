@@ -41,4 +41,50 @@
     -o-border-radius: 4px;
     margin-left: 42px;
     font-family: Segoe UI;
+    color:rgb(121,200,139);
+}
+.buttonone {
+    transition-duration: 0.4s;
+  }
+.buttonone:hover {background-color:rgb(121,200,139);
+    color:white;}
+.buttontwo{
+    border:2px solid;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 42px;
+    font-family: Segoe UI;
+    color:rgb(28,155,255);
+}
+.buttontwo {
+    transition-duration: 0.4s;
+  }
+.buttontwo:hover {background-color:rgb(28,155,255);
+    color:white;
+}
+
+
+.buttonthree{
+    border:2px solid;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 42px;
+    font-family: Segoe UI;
+    color:rgb(255,201,150);
+}
+.buttonthree {
+    transition-duration: 0.4s;
+  }
+.buttonthree:hover {background-color:rgb(255,201,150);
+    color:white;
 }
